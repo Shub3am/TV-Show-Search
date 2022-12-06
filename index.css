@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #f1faee;
+}
+.container {
+  background: #a8dadc;
+  color: #1d3557;
+  text-align: center;
+  margin: auto;
+  margin-top: 10em;
+  border-radius: 10px;
+  padding: 1em;
+  width: 50%;
+  height: auto;
+}
+#SearchBox {
+  padding: 1em;
+  margin-top: 1em;
+  width: 35em;
+  text-align: center;
+  font-size: 1.5em;
+}
+.SearchButton {
+  padding: 1em;
+  text-align: center;
+  font-size: 1.5em;
+}
+.items {
+  display: flex;
+  border: 1px solid white;
+  padding: 1em;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
